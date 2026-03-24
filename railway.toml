@@ -1,0 +1,6 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+healthcheckPath = "/mcp"
+healthcheckTimeout = 30
