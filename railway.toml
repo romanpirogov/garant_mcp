@@ -1,9 +1,0 @@
-# railway.toml — конфигурация деплоя на Railway.app
-[build]
-builder = "dockerfile"
-
-[deploy]
-startCommand = "python server.py"
-healthcheckPath = "/mcp"
-healthcheckTimeout = 30
-restartPolicyType = "on-failure"
